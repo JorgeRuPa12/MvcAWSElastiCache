@@ -9,7 +9,7 @@ namespace MvcAWSElastiCache.Controllers
     {
         private RepositoryCoches repo;
         private ServiceCacheRedis service;
-        public CochesController(RepositoryCoches repo, ServiceCacheRedis)
+        public CochesController(RepositoryCoches repo, ServiceCacheRedis service)
         {
             this.repo = repo;
             this.service = service;
